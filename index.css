@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #ECECEC;
+    font-family: Space Grotesk;
+    background-color:#0F101D ;
+    
+}
+
+.section1{
+    background-color:#0F101D ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.R_soc{
+    gap: 20px;
+}
+
+.nom {
+    font-size: 21px;
+}
+
+
+
+
+
+/*section 2*/
+.haut{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color:#d8d8d816 ;
+    padding: 15px;
+}
+
+
+.sectoin2{
+background: url(./assets/image/Bg.png);
+width: 100%;
+
+
+
+}
+
+
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message h1 {
+    padding: 10px;
+    color: #F54B15;
+    font-size: 18px;
+
+}
+
+.message h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+.message span{
+    color: #B4B4B4;
+    font-size: 18;
+
+}
+
+
+.block{
+    display: flex;
+    padding: 12%;
+    justify-content: center;
+    padding: 0;
+    
+   
+}
+
+
+.caree{
+    width:447.4545593261719px ;
+    height:289px ;
+    background-color: #C6C6C6;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+}
