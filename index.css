@@ -485,74 +485,28 @@ body{
 
 
 
-
-
-
-
-/* Media Query for iPhone 14 Pro (Mobile) */
-@media screen and (min-width: 430px) and (max-width: 550px) {
+@media screen and (max-width: 430px) {
     body {
-        margin: 0;
-        padding: 0;
-        color: #ECECEC;
-        background-color: #0F101D;
-        font-family: "DM Sans", sans-serif;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
-    .section1 {
-        padding: 15px 20px;
-        flex-direction: column;
-        justify-content: center;
-        gap: 10px;
+    .section1,
+    .section3,
+    .section5,
+    .sectoin2 {
+        width: 100% !important;
     }
 
-    .logo {
-        gap: 8px;
-    }
-
-    .R_soc {
-        gap: 12px;
-    }
-
-    .nom {
-        font-size: 18px;
-    }
-
-    .message h2 {
-        font-size: 28px;
-        line-height: 40px;
-        text-align: center;
-    }
-
-    .block {
-        padding: 30px;
-    }
-
-    .caree {
-        width: 100%;
-        height: auto;
-    }
-
-    .cercel {
-        width: 50px;
-        height: 50px;
-    }
-
-    .section3 {
-        padding: 20px;
-        text-align: center;
+    .section3,
+    .section5 {
         height: auto;
     }
 
     .service {
         flex-direction: column;
         gap: 20px;
-        padding: 30px;
-    }
-
-    .pricing-table {
-        flex-direction: column;
-        align-items: center;
+        padding: 20px;
     }
 
     .card {
@@ -561,18 +515,33 @@ body{
         margin-bottom: 20px;
     }
 
-    .footer-top {
+    .block {
+        padding: 20px;
         flex-direction: column;
+    }
+
+    .caree {
+        width: 100%;
+        height: auto;
+    }
+
+    .section4 {
+        display: none;
+    }
+
+    .section6 {
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .left6, .rigt6 {
         align-items: center;
     }
 
-    .footer-middle {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .footer-bottom {
+    .footer-top, .footer-middle, .footer-bottom {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 }
