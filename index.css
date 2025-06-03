@@ -43,12 +43,13 @@ body{
 }
 
 
-.sectoin2{
-background: url(./assets/image/Bg.png);
-width: 100%;
-
-
-
+.sectoin2 {
+    background: url(./assets/image/Bg.png);
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-position: center; /* Centers the background image */
+    width: 100%; /* Ensures the section takes the full width */
+    height: 86vh; /* Makes the section take the full viewport height */
 }
 
 
@@ -57,6 +58,7 @@ width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+        gap: 40px;
 }
 
 .message h1 {
@@ -97,20 +99,98 @@ width: 100%;
 
 
 
+/*section3*/
+
+.cercel{
+    width: 66px;
+    height: 66px;
+    background-color: #F54B15;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 {
+    text-align: center;
+    background-color: #ECECEC;
+    color: black;
+    padding: 22px;
+    background: url(./assets/image/back2.png);
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-position: center; /* Centers the background image */
+    width: 100%; /* Ensures the section takes the full width */
+    height: 45vh; /* Makes the section take the full viewport height */
+}
+
+.service{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
 
+/*section4*/
 
+.crree2{
 
+    
+    width: 355.24px;
+    height: 310px;
+    background-color: #C6C6C6;
+    border-radius: 10px;
+}
 
+.section4 {
+    background: url(./assets/image/bacs4.png);
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-position: center; /* Centers the background image */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically centers the content */
+    justify-content: space-around; /* Distributes the items evenly */
+    height: 70vh; /* Ensures the section takes up the full viewport height */
+    padding: 20px; /* Adds padding around the content */
+}
 
+.left3{
 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.right4{
+    gap: 10px;
+}
 
+.cercle2{
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+ 
+.disc{
+    display: flex;
+        align-items: center;
+}
 
-
-
-
-
+.message4 h2{
+    font-size: 18px;
+    color: #B4B4B4;
+}
 
 
 
